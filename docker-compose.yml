@@ -1,0 +1,7 @@
+version:'3'
+services:
+  web:
+    image:Ubuntu 18.04
+    volumes:
+        - ./app:/app
+    command: apt-get update && apt-get install python3-pip
